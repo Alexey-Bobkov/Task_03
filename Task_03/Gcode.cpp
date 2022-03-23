@@ -171,7 +171,7 @@ void Gcode::parse_string(const std::string& st)
 
 void Gcode::parse_string(const std::vector<std::string>& vstring)
 {
-    for(auto elem : vstring)
+    for(const auto &elem : vstring)
     {
         try
         {
